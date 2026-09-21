@@ -1,5 +1,6 @@
 Console Card Game
 
+```
 src/
   main.ts
   core/
@@ -33,3 +34,4 @@ src/
     ConsoleRenderer.ts
   input/
     CommandParser.ts    → "attack 1 2" → Action objekt (regex, validace)
+```
