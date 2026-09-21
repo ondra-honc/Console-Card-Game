@@ -1,7 +1,7 @@
 {
   "name": "heartstone",
   "version": "0.1.9",
-  "description": "Počáteční kód pro konzolové aplikace v Typescriptu",
+  "description": "Konzolová karetní hra",
   "scripts": {
     "dev": "tsx watch src/index.ts",
     "dev:debug": "cross-env NODE_OPTIONS=--inspect=9229 tsx watch src/index.ts",
@@ -17,7 +17,7 @@
     "node": ">=22"
   },
   "keywords": [],
-  "author": "Michal Stehlík",
+  "author": "Ondřej Honc",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
