@@ -13,5 +13,6 @@
     "inlineSources": true,
     "types": ["vitest/globals", "node"]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["node_modules", "dist", "tests"]
 }
