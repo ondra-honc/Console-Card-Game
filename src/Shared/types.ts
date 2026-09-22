@@ -1,13 +1,12 @@
-import {Random} from "../Core/random";
-import {Player} from "../Board/player";
-import {AI} from "../AI/Iagent";
-import {Minion} from "../Board/minion";
+import type {Random} from "../Core/random";
+import type {Player} from "../Board/player";
+import type {Minion} from "../Board/minion";
 
 export type PlayContext = {
-    owner: Player | AI;
-    opponent: Player | AI;
+    owner: Player;
+    opponent: Player;
     random: Random;
-    target?: Player | AI | Minion;
+    target?: Player | Minion;
 }
 
 export enum CardType {Spell, Minion}
